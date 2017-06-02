@@ -1,0 +1,23 @@
+<!-- Footer -->
+	<div id="footer">
+		<div class="container">
+			<section>
+				<header>
+					<h2>{{get_in_touch_title}}</h2>
+					<span class="byline">{{tagline}}</span>
+				</header>
+				<ul class="contact">
+					{{#each social_details}}
+						<li><a href="{{link.href}}" class="fa {{font_awesome_class}}"><span>{{link.title}}</span></a></li>
+					{{/each}}
+				</ul>
+			</section>
+		</div>
+	</div>
+
+<!-- Copyright -->
+	<div id="copyright">
+		<div class="container">
+			{{{copyright}}}
+		</div>
+	</div>

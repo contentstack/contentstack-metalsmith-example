@@ -1,0 +1,20 @@
+<!-- Header -->
+	<div id="header" style="background-image: url('{{website_background_image.url}}');">
+		<div id="nav-wrapper">
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					{{#each navigation.link}}
+					<li class="active"><a href="{{href}}">{{title}}</a></li>
+					{{/each}}
+				</ul>
+			</nav>
+		</div>
+		<div class="container">
+			<!-- Logo -->
+			<div id="logo">
+				<h1><a href="#">{{logo.logo_title}}</a></h1>
+				<span class="tag">{{logo.logo_tag}}</span>
+			</div>
+		</div>
+	</div>
