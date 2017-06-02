@@ -46,7 +46,9 @@
 	<!-- Main -->
 		<div id="main">
 			<div id="content" class="container">
+				{{#if products}}
 				<div class="row">
+					{{#if products.0.title}}
 					<section class="6u">
 						<a href=".{{products.0.url}}" class="image full"><img src="{{products.0.image.url}}" alt=""></a>
 						<header>
@@ -54,6 +56,8 @@
 						</header>
 						<p>{{products.0.summary}}</p>
 					</section>
+					{{/if}}
+					{{#if products.1.title}}
 					<section class="6u">
 						<a href=".{{products.1.url}}" class="image full"><img src="{{products.1.image.url}}" alt=""></a>
 						<header>
@@ -61,9 +65,11 @@
 						</header>
 						<p>{{products.1.summary}}</p>
 					</section>
+					{{/if}}
 				</div>
 
 				<div class="row">
+					{{#if products.2.title}}
 					<section class="6u">
 						<a href=".{{products.2.url}}" class="image full"><img src="{{products.2.image.url}}" alt=""></a>
 						<header>
@@ -71,6 +77,8 @@
 						</header>
 						<p>{{products.2.summary}}</p>
 					</section>
+					{{/if}}
+					{{#if products.3.title}}
 					<section class="6u">
 						<a href=".{{products.3.url}}" class="image full"><img src="{{products.3.image.url}}" alt=""></a>
 						<header>
@@ -78,7 +86,9 @@
 						</header>
 						<p>{{products.3.summary}}</p>
 					</section>
+					{{/if}}
 				</div>
+				{{/if}}
 			</div>
 		</div>
 

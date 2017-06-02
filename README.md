@@ -66,6 +66,7 @@ $ npm install
 #### Step 6: Build and configure website
 
 Once you have cloned the project, add your Built.io Contentstack API Key, Access Token, and Environment to the project. The index.js file would look something like this:
+
 ```bash
  .use(contentstack({
     api_key: '<< api_key >>',
@@ -93,4 +94,4 @@ Your static website should now be up and running!
 ### Documentation
 
 * Read Built.io Contentstack [docs](https://contentstackdocs.built.io).
-* Learn [Metalsmith](www.metalsmith.io).
+* Learn [Metalsmith](http://www.metalsmith.io).
