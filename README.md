@@ -12,7 +12,7 @@ You can find a [live demo](https://contentstack-metalsmith-static-site-demo.now.
 ### Tutorial
 We have created an in-depth tutorial on how you can create a website using Nodejs express framework. By following the steps given in the tutorial, design a website similar to the one given in the demo.
 
-[Tutorial to create an app using Metalsmith and Built.io Contentstack.](https://www.contentstack.com/docs/example-apps/build-a-website-using-metalsmith-and-contentstack)
+[Tutorial to create an app using Metalsmith and Contentstack.](https://www.contentstack.com/docs/example-apps/build-a-website-using-metalsmith-and-contentstack)
 
 ### Documentation
 * Read Contentstack [docs](https://www.contentstack.com/docs/).
