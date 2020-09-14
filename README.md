@@ -7,7 +7,7 @@
 ![Homepage Screenshot](./sample_homepage.png?raw=true "Homepage Screenshot")
 
 ### Live Demo
-You can find a [live demo](https://contentstack-metalsmith-static-site-demo.now.sh/) of the source code from this project.
+You can find a [live demo](https://contentstack-metalsmith.vercel.app/) of the source code from this project.
 
 ### Tutorial
 We have created an in-depth tutorial on how you can create a website using Nodejs express framework. By following the steps given in the tutorial, design a website similar to the one given in the demo.
